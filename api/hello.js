@@ -4,7 +4,7 @@ require("dotenv").config();
 const app = express();
 
 app.get("/api/hello", async (req, res) => {
-  const visitorName = req.query.visitor_name || "Mark";
+  const visitorName = req.query.visitor_name || "Guest";
   const clientIp = req.headers["x-forwarded-for"] || req.socket.remoteAddress;
   console.log(`Visitor Name: ${visitorName}, Client IP: ${clientIp}`);
 
