@@ -1,13 +1,7 @@
-Stage One Task - Backend Track
-Task Description
-Set up a basic web server in your preferred stack. Deploy it to any free hosting platform and expose an API endpoint that conforms to the criteria
+HGN Internship Program
 
-below:
-Endpoint: [GET] <example.com>/api/hello?visitor_name="Mark" (where <example.com> is your server origin)
+It involves 10 stages of tasks from 1-10
+in each stage you are given a task to submit on a deadline and if u are successful you move to the next stage.
+Until you get to stage 10 where you would have gained exprience and expectize to take on the world with internship experience.
 
-Response:
-{
-"client_ip": "127.0.0.1", // The IP address of the requester
-"location": "New York" // The city of the requester
-"greeting": "Hello, Mark!, the temperature is 11 degrees Celcius in New York"
-}
+MY TRACK IS BACKEND with NODEJS as my Backend Stack.
